@@ -1,0 +1,55 @@
+h1 {
+    color: white;
+    background-color: rgb(76, 59, 233);
+    text-align: center;
+    border: 4px dotted black;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(133, 189, 238);
+    padding: 10px;
+    border: 2px dotted black;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    text-align: start;
+}
+
+li {
+    display: inline-block;
+    padding: 5px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+li:hover {
+    background-color: azure;
+}
+
+.second_class {
+    background-color: rgb(72, 171, 241);
+}
+
+footer {
+    text-align: center;
+
+}
+
+img {
+    width: 400px;
+}
+
+.scale {
+    transition: 1s;
+
+}
+
+.scale:hover {
+    transform: scale(1.3);
+
+}
